@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "cagatayakk/terraform-aws-docker-instance"
+    source = "cagatayakk/docker-instance/aws"
     key_name = "write-your-key-name"
 }
 ```
